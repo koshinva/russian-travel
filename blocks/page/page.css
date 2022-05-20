@@ -6,3 +6,15 @@
     font-weight: 400;
     min-height: 100%;   
 }
+
+@media screen and (max-width: 950px) {
+    .page {
+        padding: 28px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page {
+        padding: 28px 16px 24px;
+    }
+}
