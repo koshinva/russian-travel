@@ -1,0 +1,7 @@
+.lead__image {
+    position: relative;
+}
+.lead__image img {
+    object-fit: cover;
+    max-width: 100%;
+}
