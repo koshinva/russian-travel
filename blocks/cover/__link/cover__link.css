@@ -11,6 +11,7 @@
     color: inherit;
     min-height: 740px;
     padding: 100px 50px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1100px) {
