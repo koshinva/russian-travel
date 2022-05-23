@@ -5,12 +5,6 @@
     max-width: 640px;
 }
 
-@media screen and (max-width: 950px) {
-    .lead__subtitle {
-        font-size: 24px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .lead__subtitle {
         font-size: 16px;

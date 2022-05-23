@@ -1,15 +1,6 @@
 .place__image {
     grid-area: image;
-    
-}
-.place__image img {
     width: 100%;
     object-fit: cover;
     vertical-align: top;
-}
-
-@media screen and (max-width: 600px) {
-    .place__image {
-        margin: 0 -16px;
-    }
 }

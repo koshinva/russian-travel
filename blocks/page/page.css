@@ -1,22 +1,10 @@
 .page {
     color: white;
     margin: 0 auto;
-    padding: 28px 48px 24px;
+    padding: 28px 0 24px 0;
     max-width: 1280px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     min-height: 100%;
     box-sizing: border-box;
-}
-
-@media screen and (max-width: 950px) {
-    .page {
-        padding: 28px 24px 24px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .page {
-        padding: 28px 16px 24px;
-    }
 }
