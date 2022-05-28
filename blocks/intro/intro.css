@@ -1,14 +1,22 @@
 .intro {
-    box-sizing: border-box;
-    padding: 0 calc(25% + 48px) 0 48px;
+    box-sizing: content-box;
+    max-width: 690px;
+    margin: 0;
+    padding-left: 148px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1110px) {
     .intro {
-        padding: 0 24px;
+        padding-left: 48px;
     }
 }
-
+@media screen and (max-width: 950px) {
+    .intro {
+        max-width: 100%;
+        padding: 0 24px;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width: 600px) {
     .intro {
         padding: 0 16px;
